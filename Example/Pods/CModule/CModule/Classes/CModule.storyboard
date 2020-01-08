@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--C Page-->
+        <scene sceneID="vEF-p6-BvN">
+            <objects>
+                <viewController storyboardIdentifier="CViewController" id="DfF-qM-oEi" customClass="CViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AC7-dK-U7M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLa-LH-qvw">
+                                <rect key="frame" x="191.5" y="433" width="31" height="30"/>
+                                <state key="normal" title="To A"/>
+                                <connections>
+                                    <action selector="toA:" destination="DfF-qM-oEi" eventType="touchUpInside" id="48V-cE-nS0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rLa-LH-qvw" firstAttribute="centerX" secondItem="AC7-dK-U7M" secondAttribute="centerX" id="aNk-td-znM"/>
+                            <constraint firstItem="rLa-LH-qvw" firstAttribute="centerY" secondItem="AC7-dK-U7M" secondAttribute="centerY" id="wBe-wC-XFb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N9a-al-1ds"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="C Page" id="aVQ-ye-Bjl"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7a9-8A-t5N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="83" y="92"/>
+        </scene>
+    </scenes>
+</document>

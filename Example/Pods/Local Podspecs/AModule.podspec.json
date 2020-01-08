@@ -1,0 +1,30 @@
+{
+  "name": "AModule",
+  "version": "0.1.0",
+  "summary": "A short description of AModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuekun91/AModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuekun@tom.com": "yuekun@tom.com"
+  },
+  "source": {
+    "git": "https://github.com/yuekun91/AModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AModule/Classes/**/*",
+  "dependencies": {
+    "BModule": [
+      "0.1.0"
+    ],
+    "CModule": [
+      "0.1.0"
+    ]
+  }
+}

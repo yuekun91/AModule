@@ -1,0 +1,6 @@
+framework module CModule {
+  umbrella header "CModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
